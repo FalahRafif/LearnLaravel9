@@ -2,4 +2,5 @@ Requirment
 - Composer 
 
 Install Laravel
-- composer instal
+- composer create-project laravel/laravel:^9.0 [Nama Project]
+
