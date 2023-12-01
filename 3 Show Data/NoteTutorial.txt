@@ -2,3 +2,8 @@ membuat controller
 - php artisan make:controller PostController
 
 menambah method baru di controller
+
+menambahkan route
+
+cek route sudah masuk apa belum
+- php artisan route:list
