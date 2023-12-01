@@ -7,3 +7,9 @@ menambahkan route
 
 cek route sudah masuk apa belum
 - php artisan route:list
+
+menambahkan view blade untuk menu PostController
+
+- @forelse = looping
+- - @empty = else versi looping jika kosong
+- $post->links() = call model prop
