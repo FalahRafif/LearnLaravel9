@@ -1,0 +1,17 @@
+menggubah databasi 
+- ada di file .env
+
+buat database
+
+membuat model 
+- php artisan make:model [nama model] -m
+
+menjalankan migration
+- php artisan migrate
+
+menambahkan mass assignment 
+protected $fillable = [
+        'image',
+        'title',
+        'content',
+    ];
