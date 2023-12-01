@@ -9,3 +9,7 @@ Jalanin Project
 
 Enable Akses simpan gambar
 - php artisan storage:link
+
+Disable AKses simpan gambar
+- cd public
+- rm storage

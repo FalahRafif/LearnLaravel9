@@ -13,8 +13,7 @@ class PostController extends Controller
     {
         //get posts
         $posts = Post::latest()->paginate(5);
-        
-        // var_dump($posts);
+
         //render view with posts data
         return view('posts.index', compact('posts'));
     }
@@ -46,7 +45,7 @@ class PostController extends Controller
 
         //upload image
         $image = $request->file('image');
-        $image->storeAs('public/posts', $image->hashName());
+        $image->storePubliclyAs('public/posts', $image->hashName()); #fix storage link
 
         //create post
         Post::create([
