@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post; # menambah model 
+use Symfony\Component\VarDumper\VarDumper;
 
 class PostController extends Controller
 {
@@ -12,7 +13,8 @@ class PostController extends Controller
     {
         //get posts
         $posts = Post::latest()->paginate(5);
-
+        
+        // var_dump($posts);
         //render view with posts data
         return view('posts.index', compact('posts'));
     }

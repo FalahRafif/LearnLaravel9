@@ -13,3 +13,7 @@ title	required	                    field wajib diisi.
 content	required	                    field wajib diisi.
         min:10	                        field minimal memiliki 10 karakter/huruf.
 
+menambahkan view create
+- form atribut di tambahkan (enctype="multipart/form-data") agar bisa mengirim gambar
+
+@error = handling error dari controller
