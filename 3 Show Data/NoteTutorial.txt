@@ -1,3 +1,4 @@
 membuat controller
+- php artisan make:controller PostController
 
-php artisan make:controller PostController
+menambah method baru di controller
