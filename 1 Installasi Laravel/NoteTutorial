@@ -4,3 +4,8 @@ Requirment
 Install Laravel
 - composer create-project laravel/laravel:^9.0 [Nama Project]
 
+Jalanin Project 
+- php artisan serve
+
+Enable Akses simpan gambar
+- php artisan storage:link
