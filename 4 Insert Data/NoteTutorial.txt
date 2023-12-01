@@ -1,0 +1,15 @@
+menambahkan method create dan store
+- create : redirect ke form insert
+- store : insert data ke db
+
+
+KEY	    VALIDATION	                    KETERANGAN
+image	required	                    field wajib diisi.
+        image	                        field harus berupa gambar
+        mimes:jpeg,png,jpg,gif,svg	    filed harus memiliki extensi jpeg, png, jpg, gif dan svg.
+        max:2048	                    field maksimal berukuran 2048 Mb / 2Mb.
+title	required	                    field wajib diisi.
+        min:5	                        field minimal memiliki 5 karakter/huruf.
+content	required	                    field wajib diisi.
+        min:10	                        field minimal memiliki 10 karakter/huruf.
+
