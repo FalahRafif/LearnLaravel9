@@ -1,0 +1,3 @@
+menambahkan library untuk hapus gambar
+
+@method('PUT') = menandakan form untuk update
