@@ -1,0 +1,1 @@
+Storage::delete('public/posts/'. $post->image); = menghapus gambar
